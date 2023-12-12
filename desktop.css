@@ -17,6 +17,14 @@
 .nav-logo{
     text-align: left;
 }
+.portfolio{
+    
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 
 .nav-heading h1{
     text-align: right;
